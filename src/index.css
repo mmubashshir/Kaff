@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Thin.otf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-ExtraLight.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Demi.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Bold.otf");
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Heavy.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("./src/fonts/Termina Test/TerminaTest-Black.otf");
+  font-weight: 900;
+}
+
