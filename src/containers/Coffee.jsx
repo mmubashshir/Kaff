@@ -40,7 +40,6 @@ const CoffeeGrid = () => {
               className="w-full h-full rounded-full object-cover"
               src={coffee.source}
               alt=""
-              srcset=""
             />
           </div>
         ))}

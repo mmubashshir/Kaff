@@ -18,13 +18,13 @@ const Store = () => {
       </h1>
       <div className="text-bread-cream relative h-32 sm:h-56 md:h-60">
         <div className="absolute w-[25rem] sm:w-[30rem] -top-32 md:-top-40 md:w-[35rem] left-0 right-0 my-0 mx-auto overflow-hidden">
-          <img className="w-full h-full" src={hero} alt="" srcset="" />
+          <img className="w-full h-full" src={hero} />
         </div>
       </div>
       <footer className="flex text-bread-cream items-center py-8 justify-between">
         <div className="flex items-center">
           <span className="text-bread-cream w-4 h-4 sm:w-6 md:w-8 sm:h-6 md:h-8 inline ">
-            <img className="w-full h-full" src={coffeeIcon} alt="" srcset="" />
+            <img className="w-full h-full" src={coffeeIcon} />
           </span>
           <h1 className=" font-termina font-extrabold sm:text-lg md:text-3xl text-red-500">
             KAFF

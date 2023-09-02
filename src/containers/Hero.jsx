@@ -24,12 +24,7 @@ const Hero = () => {
         </div>
         <div className="big rounded-b-[24rem] w-full -mt-20 md:-mt-28 lg:-mt-32 md:w-medium lg:w-large xl:-mt-38 xl:w-xLarge 2xl:-mt-44 2xl:w-xxLarge mx-auto overflow-hidden relative">
           <div className="circle z-0 shadow-inner w-full aspect-square md:mt-28 lg:mt-32 xl:mt-38 2xl:mt-44 md:w-medium md:h-medium lg:w-large lg:h-large xl:w-xLarge xl:h-xLarge 2xl:w-xxLarge 2xl:h-xxLarge mt-20 rounded-full ">
-            <img
-              className="absolute z-20 drop-shadow-2xl top-0"
-              src={hero}
-              alt=""
-              srcset=""
-            />
+            <img className="absolute z-20 drop-shadow-2xl top-0" src={hero} />
           </div>
         </div>
         <div className="-mx-8 bg-bread-cream h-60 -mt-[50%] md:hidden"></div>
