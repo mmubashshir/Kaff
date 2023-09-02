@@ -17,7 +17,7 @@ const Store = () => {
         NOW
       </h1>
       <div className="text-bread-cream relative h-32 sm:h-56 md:h-60">
-        <div className="absolute w-[25rem] sm:w-[30rem] -top-32 md:-top-40 md:w-[35rem] left-0 right-0 my-0 mx-auto overflow-hidden">
+        <div className="absolute w-[20rem] sm:w-[30rem] -top-32 md:-top-40 md:w-[35rem] left-0 right-0 my-0 mx-auto overflow-hidden">
           <img className="w-full h-full" src={hero} />
         </div>
       </div>
