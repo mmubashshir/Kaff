@@ -2,6 +2,7 @@ import React from "react";
 
 const CoffeeIcon = () => {
   return (
+    <p className="text-hazelnut text-opacity-60">
     <svg
       className=""
       xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +22,7 @@ const CoffeeIcon = () => {
         ></path>
       </g>
     </svg>
+    </p>
   );
 };
 

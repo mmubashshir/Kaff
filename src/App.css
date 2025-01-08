@@ -28,6 +28,17 @@
   );
 }
 
+.marquee-track-text {
+  animation: marquee-move-text var(--speed, 10s) linear infinite var(--direction, forwards);;
+}
+
+@keyframes marquee-move-text {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
